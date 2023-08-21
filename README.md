@@ -5,14 +5,14 @@
 
 ## x86
 
-在 SSH CatWrt 终端中输入一下代码，代码前面没有 $
+在 SSH CatWrt 终端中输入一下代码
 
 ```bash
-$ wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.67-4/luci-i18n-passwall-zh-cn_4.67-4_all.ipk
-$ wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.67-4/luci-app-passwall_4.67-4_all.ipk
-$ cd /tmp
-$ opkg install .tmp/luci-app-passwall_4.67-4_all.ipk
-$ opkg install ./luci-app-passwall-zh-cn_4.67-4_all.ipk
+wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.67-4/luci-i18n-passwall-zh-cn_4.67-4_all.ipk
+wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.67-4/luci-app-passwall_4.67-4_all.ipk
+cd /tmp
+opkg install .tmp/luci-app-passwall_4.67-4_all.ipk
+opkg install ./luci-app-passwall-zh-cn_4.67-4_all.ipk
 ```
 ## mt798x
 
