@@ -8,8 +8,8 @@
 在 SSH CatWrt 终端中输入一下代码
 
 ```bash
-wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.70-7/luci-i18n-passwall-zh-cn_4.67-4_all.ipk
-wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.70-7/luci-app-passwall_4.67-4_all.ipk
+wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.70-7/luci-i18n-passwall-zh-cn_git-23.256.63940-4bb0d98_all.ipk
+wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.70-7/luci-app-passwall_4.70-7_all.ipk
 cd /tmp
 opkg install .tmp/luci-app-passwall_4.70-7_all.ipk
 opkg install ./luci-app-passwall-zh-cn_4.70-7_all.ipk
