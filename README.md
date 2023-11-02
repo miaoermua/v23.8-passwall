@@ -8,12 +8,13 @@
 在 SSH CatWrt 终端中输入一下代码
 
 ```bash
-wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.70-7/luci-i18n-passwall-zh-cn_git-23.256.63940-4bb0d98_all.ipk
-wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.70-7/luci-app-passwall_4.70-7_all.ipk
-cd /tmp
-opkg install .tmp/luci-app-passwall_4.70-7_all.ipk
-opkg install ./luci-app-passwall-zh-cn_4.70-7_all.ipk
+wget -P /tmp https://ghproxy.comhttps://github.com/xiaorouji/openwrt-passwall/releases/download/4.71-2/luci-i18n-passwall-zh-cn_git-23.289.45328-a953315_all.ipk
+
+wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.71-2/luci-app-passwall_4.71-2_all.ipk
+
+cd /tmp && opkg install *.ipk
 ```
+
 ## mt798x
 
 按照博客
@@ -25,5 +26,8 @@ https://www.miaoer.xyz/posts/network/catwrt-applist
 
 注意这里的依赖组件不会卸载如果卸载了你需要记住后面再安装，执行上诉 x86 的命令即可安装。
 
-开源软件来源: https://github.com/xiaorouji/openwrt-passwall 
-与博主无关，仅供学习参考
+---
+
+## 提示
+
+开源软件来源: https://github.com/xiaorouji/openwrt-passwall 与博主无关，仅供学习参考
