@@ -8,9 +8,9 @@
 在 SSH CatWrt 终端中输入一下代码
 
 ```bash
-wget -P /tmp https://ghproxy.comhttps://github.com/xiaorouji/openwrt-passwall/releases/download/4.71-2/luci-i18n-passwall-zh-cn_git-23.289.45328-a953315_all.ipk
+wget -P /tmp https://mirror.ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.71-2/luci-i18n-passwall-zh-cn_git-23.289.45328-a953315_all.ipk
 
-wget -P /tmp https://ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.71-2/luci-app-passwall_4.71-2_all.ipk
+wget -P /tmp https://mirror.ghproxy.com/https://github.com/xiaorouji/openwrt-passwall/releases/download/4.71-2/luci-app-passwall_4.71-2_all.ipk
 
 cd /tmp && opkg install *.ipk
 ```
